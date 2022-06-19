@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bg-style {
+    background: #81c784;    
+}
+.bg-sty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #b2fab4;
+}
+.bg-styl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #b2fab4;
+}
+.selec-style {
+    cursor: pointer;
+}
+.footer {
+    display: flex;
+    text-align: center;
+    background: #81c784;
+    height: 50px;
+    justify-content: center;
+}

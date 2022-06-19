@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=S, initial-scale=1.0">
+    <title>Desafio 1 JS</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-style">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h1><strong>Clip</strong>Store</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Offers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <div class="card text-center my-4 mx-5">
+                    <img src="assets/img/tv-retro.jpg" class="card-img-top" alt="...">
+                    <div class="card-body bg-sty">
+                        <h1 class="card-title">TV RETRO</h1>
+                        <input class="selec-style my-2" id="quantity" type="number" placeholder="Select Quantity">
+                        <h5>Select Color:</h5>
+                        <input class="selec-style my-2" id="color" type="color" placeholder="Select Color">
+                        <h3  class="card-text class="my-2"">
+                            Price: $ <span id="price" value="149">149</span>
+                        </h3    >
+                        <button type="button" class="btn btn-info my-2" onclick="totalidad()">Calculate The Total</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="card text-center my-4 mx-5">
+                    <div class="card-body bg-styl">
+                        <h1 class="card-title ">chek aup</h1>
+                        <p class="my-3">Total to pay: $<span id="total"></span></p>
+                        <p>Quantity: <span id="quanti"></span></p>
+                        <p>Color:</p>
+                        <p class="w-50 py-4" id="colorsito"></p>
+                        <a href="https://github.com/Jcoronel-tech/JS-Desafio-1-Calculando-total" target="_blank" class="my-2">
+                            <button type="button" class="btn btn-info my-3">To Pay</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+    </section>
+    <footer class="footer pt-3">
+        <div class="space-text px-1">
+            <i class="fa-brands fa-facebook"></i>
+        </div>
+        <div class="space-text px-1">
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="space-text px-1">
+            <p>@ClipStore 2022</p>
+        </div>
+    </footer>
+
+    <!--Enlaces sript-->
+    <script 
+        src="assets/js/script.js">
+    </script>
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+        crossorigin="anonymous">
+    </script>
+    <script 
+        src="https://kit.fontawesome.com/58fdc6ce93.js" 
+        crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
